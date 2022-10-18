@@ -26,9 +26,7 @@ public class Board {
         }
     }
 
-    public void addToken(Coordinates coordinates, Turn turn){//igual y no es turno sino otra cosa, solo aviso
-
-    }
+    
 }
 
 
@@ -36,4 +34,6 @@ public class Board {
 /*para saber si es conecta 4 son dos for que me comprueba 4 direcciones y sus contrarios
  * 
  * como?? ni idea pero a ver que sale jsjsjs
+ * 
+ * comprueba numero de fichas puestas
  */

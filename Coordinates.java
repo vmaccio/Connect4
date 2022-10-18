@@ -6,4 +6,18 @@ public class Coordinates {
     //calculateRow
     //getROw
     //getCOLUM
+
+    private int colum;
+
+    public Coordinates(){
+        this.colum = obtainCoordinate();
+    }
+
+    private int obtainCoordinate(){
+        return Console.getInstance().readInt(null);
+    }
+
+    public int calculateRow(int colum, Board board){
+        return 0;
+    }//calcula
 }
